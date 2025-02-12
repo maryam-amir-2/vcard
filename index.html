@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My vCard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="vcard">
+        <img src="C:\Users\marya\OneDrive\Desktop\vcard project\Screenshot 2025-02-11 215515.png" alt="Profile Picture" class="profile-pic">
+        <h1>Amir Naved</h1>
+        <p class="job-title">Project Manager</p>
+        <p><strong>Company:</strong> Al Barge Work For Contracting Est.</p>
+        <p><strong>Email:</strong> <a href="amirnaved@yahoo.com">amirnaved@yahoo.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+966548426281">+966548426281</a></p>
+       
+        <div class="social-links">
+            <a href="https://linkedin.com/in/m" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/hey" target="_blank">Twitter</a>
+        </div>
+        <button onclick="downloadVCard()">Download vCard</button>
+    </div>
+
+    <script>
+        function downloadVCard() {
+            window.location.href = "vcard.vcf";
+        }
+    </script>
+</body>
+</html>
